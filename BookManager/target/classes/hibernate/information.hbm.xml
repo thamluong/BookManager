@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.rm.model.Information" table="information">
+		<id name="id">
+			<generator class="native"></generator>
+		</id>
+		<property name="category"></property>
+		<property name="date"></property>
+		<property name="publisher"></property>
+		<property name="language"></property>
+		<property name="pages"></property>
+		<property name="img"></property>
+		<property name="info"></property>
+	</class>
+</hibernate-mapping>  
