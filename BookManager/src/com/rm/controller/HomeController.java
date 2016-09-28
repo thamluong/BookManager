@@ -13,6 +13,7 @@ public class HomeController {
 
 	@RequestMapping("/")
 	public String home(){
+		bookService.check();
 		return "index";
 	}
 }
